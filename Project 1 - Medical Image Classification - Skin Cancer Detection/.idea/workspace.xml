@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f815e186-c3a6-4b45-8464-0b4a58a4e4ac" name="Changes" comment="" />
+    <list default="true" id="f815e186-c3a6-4b45-8464-0b4a58a4e4ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project 1 - Clasificación de Imágenes Médicas- Detección de Cáncer de Piel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project 1 - Clasificación de Imágenes Médicas- Detección de Cáncer de Piel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2m1FwX1r62OOVdcCFFmNI6jipjN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,9 +30,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/andreuolaortua/code/Machine learning/00 - Projects/Project 1 - Clasificación de Imágenes Médicas- Detección de Cáncer de Piel"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/andreuolaortua/code/Machine learning/00 - Projects/Project 1 - Medical Image Classification - Skin Cancer Detection"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pythonProject/.idea" />
+      <recent name="$PROJECT_DIR$/pythonProject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
