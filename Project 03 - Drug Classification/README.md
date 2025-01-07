@@ -46,7 +46,7 @@ In this project, a **Decision Tree Classifier** is used to predict the drug pres
 The model's performance is evaluated using the **accuracy score**. The model achieved a perfect score on the test data, showing high accuracy in predicting the drug categories.
 
 ```
-Accuracy:  1.0
+Accuracy:  100%
 ```
 
 ## Conclusion
