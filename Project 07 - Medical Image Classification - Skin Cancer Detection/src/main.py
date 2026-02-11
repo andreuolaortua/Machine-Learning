@@ -12,14 +12,14 @@ train_datagen = ImageDataGenerator(rescale = 1./255,
                                    shear_range = 0.2,
                                    zoom_range = 0.2,
                                    horizontal_flip = True)
-training_set = train_datagen.flow_from_directory('../data/external/Skin cancer ISIC The International Skin Imaging Collaboration/Train',
+training_set = train_datagen.flow_from_directory('/Users/andreuolaortua/Desktop/code/Machine learning/00 - Projects/00 - Old Projects/Project 07 - Medical Image Classification - Skin Cancer Detection/data/external/Skin cancer ISIC The International Skin Imaging Collaboration/Train',
                                                  target_size = (64, 64),
                                                  batch_size = 32,
                                                  class_mode = 'categorical')
 
 #Prepocessing testset
 test_datagen = ImageDataGenerator(rescale = 1./255)
-test_set = test_datagen.flow_from_directory('../data/external/Skin cancer ISIC The International Skin Imaging Collaboration/Test',
+test_set = test_datagen.flow_from_directory('/Users/andreuolaortua/Desktop/code/Machine learning/00 - Projects/00 - Old Projects/Project 07 - Medical Image Classification - Skin Cancer Detection/data/external/Skin cancer ISIC The International Skin Imaging Collaboration/Test',
                                             target_size = (64, 64),
                                             batch_size = 32,
                                             class_mode = 'categorical')
@@ -28,7 +28,7 @@ test_set = test_datagen.flow_from_directory('../data/external/Skin cancer ISIC T
 
 
 # Floder rute
-test_dir = '../data/external/Skin cancer ISIC The International Skin Imaging Collaboration/Test'
+test_dir = '/Users/andreuolaortua/Desktop/code/Machine learning/00 - Projects/00 - Old Projects/Project 07 - Medical Image Classification - Skin Cancer Detection/data/external/Skin cancer ISIC The International Skin Imaging Collaboration/Test'
 
 def model(training_set, test_set):
 
@@ -67,6 +67,7 @@ def model(training_set, test_set):
 
     return cnn
 
+model(training_set, test_set)
 # Load pretrained model
 pre_trained_model = tf.keras.models.load_model('standard_model_skin_cancer.h5')
 
